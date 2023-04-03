@@ -1,0 +1,22 @@
+name: "METEKsonic-3d"
+description: "WSN plugin for METEK 3D ultrasonic anemometer"
+keywords: "wind"
+authors: "Sujan Pal <spal@anl.gov>"
+collaborators: "Bhupendra Raut, Raj Sankaran"
+funding: ""
+license: ""
+homepage: "https://github.com/sujanpal/plugin-METEK-Sonic3D"
+source:
+  architectures:
+    - "linux/amd64"
+    - "linux/arm64"
+  url: "https://github.com/sujanpal/plugin-METEK-Sonic3D"
+  branch: "main"
+
+metadata:
+  ontology:
+  - sonic3d.Wx.mps
+  - sonic3d.Wy.mps
+  - sonic3d.Wz.mps
+  - sonic3d.T.celcius
+  
